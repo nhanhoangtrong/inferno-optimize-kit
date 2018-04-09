@@ -1,0 +1,32 @@
+<!-- Doctype HTML5 -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Set character encoding for the document -->
+  <meta charset="utf-8">
+  <!-- Instruct Internet Explorer to use its latest rendering engine -->
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <!-- Viewport for responsive web design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <!-- Page Title less than 55 characters -->
+  <title>
+    <%= htmlWebpackPlugin.options.title %>
+  </title>
+
+  <!-- Description of the page less than 150 characters -->
+  <meta name="description" content="<%= htmlWebpackPlugin.options.description %>">
+
+  <!-- Additional CSS files go here -->
+</head>
+
+<body>
+  <noscript>
+    You need to enable Javascript to run this app!
+  </noscript>
+  <div id="root"></div>
+</body>
+
+</html>
