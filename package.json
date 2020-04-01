@@ -60,7 +60,7 @@
     "inferno-mobx": "^5.0.2",
     "inferno-router": "^5.0.2",
     "inferno-shared": "^5.0.2",
-    "mobx": "^4.1.1",
+    "mobx": "^4.15.4",
     "path-to-regexp-es6": "^1.7.0"
   },
   "jest": {
