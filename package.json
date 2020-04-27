@@ -23,7 +23,7 @@
     "babel-core": "^7.0.0-0",
     "babel-eslint": "^8.2.2",
     "babel-jest": "^22.4.3",
-    "babel-loader": "^8.0.0-beta.2",
+    "babel-loader": "^8.0.0-beta.6",
     "babel-plugin-inferno": "^5.0.1",
     "clean-webpack-plugin": "^0.1.19",
     "cross-env": "^5.1.4",
