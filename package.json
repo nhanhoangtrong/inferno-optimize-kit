@@ -58,7 +58,7 @@
     "inferno-create-class": "^5.0.2",
     "inferno-create-element": "^5.0.2",
     "inferno-mobx": "^5.0.2",
-    "inferno-router": "^5.0.2",
+    "inferno-router": "^7.1.11",
     "inferno-shared": "^5.0.2",
     "mobx": "^4.1.1",
     "path-to-regexp-es6": "^1.7.0"
