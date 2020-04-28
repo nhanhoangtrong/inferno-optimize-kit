@@ -3976,7 +3976,7 @@ indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
-inferno-clone-vnode@5.0.2, inferno-clone-vnode@^5.0.2:
+inferno-clone-vnode@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-clone-vnode/-/inferno-clone-vnode-5.0.2.tgz#02616a86767e1d0aa2f1aa5a6d14beb662935109"
 
@@ -4002,20 +4002,25 @@ inferno-mobx@^5.0.2:
     inferno-create-element "5.0.2"
     inferno-shared "5.0.2"
 
-inferno-router@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/inferno-router/-/inferno-router-5.0.2.tgz#278dc64e9d2bce9975a8660756124b16c0faffa7"
+inferno-router@^5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno-router/-/inferno-router-5.6.1.tgz#c61d80abf263d4c1031858e8203d616a0451eb27"
+  integrity sha512-qcpwzMLXEWoM660TGHKgCxfxsp9w/e7f6+R6vzKX5UuFQ0t71nlux8ujxmxNKTiGuCu5VJwOZ8tR096RPimENA==
   dependencies:
     history "^4.7.2"
     hoist-non-inferno-statics "^1.1.3"
-    inferno "5.0.2"
-    inferno-clone-vnode "5.0.2"
-    inferno-shared "5.0.2"
+    inferno "5.6.1"
+    inferno-shared "5.6.1"
     path-to-regexp-es6 "1.7.0"
 
 inferno-shared@5.0.2, inferno-shared@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-5.0.2.tgz#deab19bd0b78f0b6f653b541c9a070209a0af8a6"
+
+inferno-shared@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-5.6.1.tgz#5c5e471dbff72eb9f1768f97510a32e5fa76b6dd"
+  integrity sha512-OoRargelGtMFpiyKiOv66Ihmkpt6LLlzw7jOkJr97QqBRIjQWVvtDSriwJIy6pER6EEz9KzRUbZBaEWdPvf5kA==
 
 inferno-test-utils@^5.0.2:
   version "5.0.2"
@@ -4025,12 +4030,26 @@ inferno-vnode-flags@5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-5.0.2.tgz#fe5eab4c5dfd953cc5c144ed6cb8b0a42fd2cbd9"
 
+inferno-vnode-flags@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-5.6.1.tgz#43974687cc54f22c24ecee116376f6c1bd697499"
+  integrity sha512-DDb6R17FX0Fs1SH+7SSVfHEFiYcN2U/DlPHB6qk2HOP149qtYgeRi5h0AAJswJCzBkV/QcBSyRirn0SAzl1NAQ==
+
 inferno@5.0.2, inferno@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno/-/inferno-5.0.2.tgz#d1cef3876f40b57e1ba6a58846c83df4f77ea18f"
   dependencies:
     inferno-shared "5.0.2"
     inferno-vnode-flags "5.0.2"
+    opencollective "^1.0.3"
+
+inferno@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-5.6.1.tgz#fd48043a4e9a1d861856e09494e06bdb4a1776ba"
+  integrity sha512-wbOkgg0nO7mCrxf5DYpF5K+kuqVbNZrG4DoQldjUA2IfuL2Wmb27SsH/60XBs47Cwig3TF22Ek5VYOCUxytVaQ==
+  dependencies:
+    inferno-shared "5.6.1"
+    inferno-vnode-flags "5.6.1"
     opencollective "^1.0.3"
 
 inflight@^1.0.4:
