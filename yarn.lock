@@ -3980,9 +3980,14 @@ inferno-clone-vnode@5.0.2, inferno-clone-vnode@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-clone-vnode/-/inferno-clone-vnode-5.0.2.tgz#02616a86767e1d0aa2f1aa5a6d14beb662935109"
 
-inferno-create-class@5.0.2, inferno-create-class@^5.0.2:
+inferno-create-class@5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-create-class/-/inferno-create-class-5.0.2.tgz#8ecc9ffa9a81bc833901ea07d2ed6e174a760d58"
+
+inferno-create-class@^5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno-create-class/-/inferno-create-class-5.6.1.tgz#797c8444d59bfdc9a295f8981c34382b01e7fec5"
+  integrity sha512-WOydsa3s3ctS8S8+6eNuihaICowzF4/DW81GEB7Mf9UjV+uO7Y58i29xI3qXJi3rLoct5qMtRlhQ9uy6NCzRDQ==
 
 inferno-create-element@5.0.2, inferno-create-element@^5.0.2:
   version "5.0.2"
