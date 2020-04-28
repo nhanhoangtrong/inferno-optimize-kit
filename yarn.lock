@@ -3980,11 +3980,21 @@ inferno-clone-vnode@5.0.2, inferno-clone-vnode@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-clone-vnode/-/inferno-clone-vnode-5.0.2.tgz#02616a86767e1d0aa2f1aa5a6d14beb662935109"
 
-inferno-create-class@5.0.2, inferno-create-class@^5.0.2:
+inferno-create-class@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno-create-class/-/inferno-create-class-5.6.1.tgz#797c8444d59bfdc9a295f8981c34382b01e7fec5"
+  integrity sha512-WOydsa3s3ctS8S8+6eNuihaICowzF4/DW81GEB7Mf9UjV+uO7Y58i29xI3qXJi3rLoct5qMtRlhQ9uy6NCzRDQ==
+
+inferno-create-class@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-create-class/-/inferno-create-class-5.0.2.tgz#8ecc9ffa9a81bc833901ea07d2ed6e174a760d58"
 
-inferno-create-element@5.0.2, inferno-create-element@^5.0.2:
+inferno-create-element@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-5.6.1.tgz#8173acec9ecc42ba573934a6453530b8a55d51e7"
+  integrity sha512-6ZG4uz2aqxZuOpM6GttjgQrDfbA1PWVomsmZZV34IRMGsM1aK/Na6easrtDvtFVICfoGrg0WIphBzQwvrwe+cA==
+
+inferno-create-element@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-create-element/-/inferno-create-element-5.0.2.tgz#cea37a4620c4c465fa13900ca5be4fabf90590e4"
 
@@ -3992,15 +4002,16 @@ inferno-devtools@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-devtools/-/inferno-devtools-5.0.2.tgz#248578cbd2dbc8437ba2db0db54a00a4b7101ebc"
 
-inferno-mobx@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/inferno-mobx/-/inferno-mobx-5.0.2.tgz#4df94e8f4af7c7542bdec9bd15d0d412ff9e1d5d"
+inferno-mobx@^5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno-mobx/-/inferno-mobx-5.6.1.tgz#1206108c5d3f3f8cb9ba9c55389d43d169458f10"
+  integrity sha512-uxJRdjZqcgFEOIwvTwSHlZfbOWPPvIjTcsRgFksJIYUPv+tTqhzXeX6bl+WVC0/dcm8J02C23EtO+l02eZq0kw==
   dependencies:
     hoist-non-inferno-statics "^1.1.3"
-    inferno "5.0.2"
-    inferno-create-class "5.0.2"
-    inferno-create-element "5.0.2"
-    inferno-shared "5.0.2"
+    inferno "5.6.1"
+    inferno-create-class "5.6.1"
+    inferno-create-element "5.6.1"
+    inferno-shared "5.6.1"
 
 inferno-router@^5.0.2:
   version "5.0.2"
@@ -4017,6 +4028,11 @@ inferno-shared@5.0.2, inferno-shared@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-5.0.2.tgz#deab19bd0b78f0b6f653b541c9a070209a0af8a6"
 
+inferno-shared@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno-shared/-/inferno-shared-5.6.1.tgz#5c5e471dbff72eb9f1768f97510a32e5fa76b6dd"
+  integrity sha512-OoRargelGtMFpiyKiOv66Ihmkpt6LLlzw7jOkJr97QqBRIjQWVvtDSriwJIy6pER6EEz9KzRUbZBaEWdPvf5kA==
+
 inferno-test-utils@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-test-utils/-/inferno-test-utils-5.0.2.tgz#42aa207372c43fda0818bc951c6e523cf795972e"
@@ -4025,12 +4041,26 @@ inferno-vnode-flags@5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-5.0.2.tgz#fe5eab4c5dfd953cc5c144ed6cb8b0a42fd2cbd9"
 
+inferno-vnode-flags@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno-vnode-flags/-/inferno-vnode-flags-5.6.1.tgz#43974687cc54f22c24ecee116376f6c1bd697499"
+  integrity sha512-DDb6R17FX0Fs1SH+7SSVfHEFiYcN2U/DlPHB6qk2HOP149qtYgeRi5h0AAJswJCzBkV/QcBSyRirn0SAzl1NAQ==
+
 inferno@5.0.2, inferno@^5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/inferno/-/inferno-5.0.2.tgz#d1cef3876f40b57e1ba6a58846c83df4f77ea18f"
   dependencies:
     inferno-shared "5.0.2"
     inferno-vnode-flags "5.0.2"
+    opencollective "^1.0.3"
+
+inferno@5.6.1:
+  version "5.6.1"
+  resolved "https://registry.yarnpkg.com/inferno/-/inferno-5.6.1.tgz#fd48043a4e9a1d861856e09494e06bdb4a1776ba"
+  integrity sha512-wbOkgg0nO7mCrxf5DYpF5K+kuqVbNZrG4DoQldjUA2IfuL2Wmb27SsH/60XBs47Cwig3TF22Ek5VYOCUxytVaQ==
+  dependencies:
+    inferno-shared "5.6.1"
+    inferno-vnode-flags "5.6.1"
     opencollective "^1.0.3"
 
 inflight@^1.0.4:
